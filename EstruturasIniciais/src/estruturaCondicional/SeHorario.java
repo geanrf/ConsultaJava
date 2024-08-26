@@ -21,6 +21,18 @@ public class SeHorario {
         System.out.println("Digite um horario");
         horario = sc.nextInt();
 
+        /*
+         * If Else: É uma
+         * estrutura de
+         * controle que
+         * permite definir
+         * que um
+         * certo bloco
+         * de comandos
+         * somente será
+         * executado dependendo
+         * de uma condição
+         */
         if (horario < 12) {
 
             System.out.println("Bom Dia !");

@@ -19,7 +19,10 @@ public class Ternaria {
 
         System.out.println("Digite sua nota: ");
         nota = sc.nextInt();
-
+        /*
+         * É um recurso para tomada de decisões com obvjeito similar ao do if/else, mas
+         * que é codificado em apenas uma linha
+         */
         String media = (nota >= 7) ? "Aprovado" : "Reprovado";
 
         System.out.println(media);

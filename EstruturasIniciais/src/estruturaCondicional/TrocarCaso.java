@@ -18,6 +18,10 @@ public class TrocarCaso {
         System.out.println("Digite o dia da semana");
         diaSemana = sc.nextInt();
 
+        /*
+         * Quando se tem várias opções de fluxo a serem tratadas com base no valor de
+         * uma variável.
+         */
         switch (diaSemana) {
             case 1:
                 System.out.println("Segunda");
