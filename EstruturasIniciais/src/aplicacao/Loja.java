@@ -4,7 +4,7 @@ import java.util.*;
 
 import entidades.*;
 
-public class Programa {
+public class Loja {
 
     public static void main(String[] args) {
 
